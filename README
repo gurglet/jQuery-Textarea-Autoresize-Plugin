@@ -1,0 +1,32 @@
+Simple jQuery plugin to add vertical autoresize functionality
+to textareas. Tested and working on Chrome 7, Safari 4,
+Firefox 3.6 and MSIE6.
+
+Basic usage:
+$('textarea').autoresize();
+
+You can change some settings to make the plugin work as you
+want it to:
+
+$('textarea').autoresize({ animate: false });
+
+
+All options:
+
+onresize: 	function
+			a function that gets called when the textarea
+			has been resized
+buffer:		float, default: 1
+			number of extra lines to add to the textarea
+			(keep this over 0 to avoid the textarea jumping)
+minRows:	float, default: 4
+			the minimal amount of rows to reduce the
+			textarea to
+animate: 	true/false, default: true
+			wether or not to animate the resizing of the
+			textarea
+animationDuration: microseconds, default: 50
+			duration of animation
+resizeOnStart: true/false, default: false
+			wether or not to resize the textarea when
+			the plugin is activated
