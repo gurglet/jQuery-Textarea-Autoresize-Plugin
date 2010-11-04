@@ -23,10 +23,10 @@ minRows:	float, default: 4
 			the minimal amount of rows to reduce the
 			textarea to
 animate: 	true/false, default: true
-			wether or not to animate the resizing of the
+			whether or not to animate the resizing of the
 			textarea
 animationDuration: microseconds, default: 50
 			duration of animation
 resizeOnStart: true/false, default: false
-			wether or not to resize the textarea when
+			whether or not to resize the textarea when
 			the plugin is activated
